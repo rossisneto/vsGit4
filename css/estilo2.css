@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    background-color: gray;
+    border: 2px solid red;
+    padding: 15px;
+    max-width: 300px;  
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+}
+
+.item{
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+    background-color:aquamarine;
+    vertical-align: middle;
+    text-align: justify-all;
+}
