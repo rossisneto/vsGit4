@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    display: grid;
+    grid-template-areas: "c1 c2"
+                          "c4 c3";
+
+
+}
+
+div.card {
+  margin: auto;
+  border: 1px solid #ccc;
+  width: 200px;
+  float: right;
+}
+
+#card1{
+    grid-area: c1;
+}
+#card2{
+    grid-area: c2;
+}
+#card3{
+    grid-area: c3;
+}
+#card4{
+    grid-area: c4;
+}
+
+div.card:hover {
+  border: 1px solid rgb(201, 9, 9);
+}
+
+div.card img {
+  width: 200px;
+  height: auto;
+  
+}
+
+div.descricao {
+  text-align: center;
+  color: red;
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+   
+
+}
+  
+
+@media only screen and (max-width: 500px) {
+    div.card{
+        width: auto;
+        height: auto;
+        margin: 0;
+        
+    }
+
+}

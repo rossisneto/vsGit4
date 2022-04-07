@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+   
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    
+
+    display:grid;
+    grid-template-areas:"c1 c2"
+                        "c3 c4";
+       
+    gap: 1vh;
+    justify-content:center;
+    
+}
+
+.card{
+    margin: auto;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    
+}
+
+#card1{
+    grid-area: c1;
+}
+
+#card2{
+    grid-area: c2;
+}
+
+#card3{
+    grid-area: c3;
+}
+
+#card4{
+    grid-area: c4;
+}
+
+.card:hover{
+    border: 5px solid rgb(201, 9, 9);
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.descricao{
+    padding: 10px;
+    text-align: center;
+    color: white;
+   
+}

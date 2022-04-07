@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+div.container{
+    /*Definindo altura do container*/
+    height: 100vh;
+    /*Definindo a disposição dos elementos*/
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    
+    /*Alinhamento dos elementos*/
+    
+    /*horizontal*/
+    justify-content:space-between;
+
+    /*vertical*/
+    align-items: center;    
+
+}
+
+div.card{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    width: 20vh;
+    height: 20vw;
+    color: blue;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30pt;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    
+}
+
+#c1{order: 1;}
+#c2{order: 0;}
+#c3{order: 2;}
+#c4{order: 3;}
