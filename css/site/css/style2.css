@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    overflow-x: hidden;
+    background: url('/img/floresta.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    
+    
+}
+
+body img{
+    object-fit: cover;
+}
+
+header{
+    /*Header contem div logo e div menu
+    com a lista de links*/
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black; 
+    border: 1px solid red; 
+    height: 200px; 
+    position:fixed;
+    width: 100vw;
+
+}
+
+.menu{
+    
+    padding-right: 30px; 
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+#montanha{
+    width: 600px;
+}
+
+.container{
+    padding-top: 220px;
+    width: 100vw;
+    background-color: chartreuse;
+    text-align: justify;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+
+
+img{
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.container img{
+    
+}
+
+
+.logo img{
+    width: 150px;
+    padding-left: 20px; 
+}
+
+
+a{
+    /*Estilo dos links*/
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    transition: 400ms;
+}
+
+a:hover{
+    color: white;
+    background-color:blueviolet;
+    border-radius: 3px;
+    
+}
+
+
+

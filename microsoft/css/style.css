@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;   
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+
+a{
+    color: #262626;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    /*background-color: antiquewhite;*/
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+/*Navegação*/
+.main-nav{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding 20px 0;
+    font-size: 13px;
+    
+
+}
+
+.main-nav .logo{
+    width: 110px;
+}
+
+.main-nav ul{
+    display: flex;
+    
+}
+
+.main-nav ul li{
+    padding: 0 10px;
+}
+
+.main-nav ul li a{
+    
+    
+}
+
+.main-nav ul li a:hover{
+    padding-bottom: 2px;
+}
+
+.main-nav ul li a:hover{
+    border-bottom: 2px solid #262626;
+    
+}
+
+.main-nav ul.main-menu{
+    flex: 1;
+    margin-left: 20px;
+
+}
+
+/*Botões*/
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight:bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+    transition: 500ms;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+/*Showcase*/
+
+.showcase{
+    width: 100%;
+    height: 430px;
+    background: url("/microsoft/img/primeiraImagem.webp") no-repeat center center/cover;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-end;
+    padding:80px;
+    
+    
+
+
+}
+
+.showcase div{
+    margin-top: 50px;
+}
+
+.showcase h2, .showcase p{
+    margin-bottom: 10px;
+    
+    width: 40%;
+    color: #fff;
+    
+
+
+}
+
+.showcase .btn{
+    margin-top: 20px;
+    background-color: #fff;
+    color: #262626;
+
+}
+
+/*Links 1*/
+
+.links1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.links1 div{
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+
+/*Home cards*/
+
+.home-cards {
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    text-align: justify;
+    margin-bottom:100px;
+    
+   
+
+
+}
+.home-cards p, .home-cards h3{
+    line-height: 1.5;
+    margin-top:15px;
+}
+
+.home-cards img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-cards a{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0067b8;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: 500ms;
+
+}
+
+.home-cards a:hover i{
+    margin-left: 10px;
+    transition: 500ms;
+}
+
+.outlook{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+    background: url(/microsoft/img/outlookIosAndroid.webp) no-repeat center center/cover;
+    margin-bottom: 100px;
+    align-items:left;
+    justify-content:center;
+    color: #262626;
+    padding: 50px;
+
+    margin-top: 30px;
+
+}
+
+.outlook p{
+    width: 30%;
+    text-align: justify;
+}
+
+.outlook a{
+    margin-top: 40px;
+}
+
+/*Links*/
+
+.links{
+    background: #f2f2f2;
+    color: #616161;
+
+}
+
+.main-footer{
+    background-color: rgb(242,242,242);
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.main-footer div{
+    
+}
